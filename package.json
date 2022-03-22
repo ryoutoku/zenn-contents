@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/ryoutoku/zenn-contents#readme",
   "dependencies": {
-    "zenn-cli": "^0.1.107"
+    "zenn-cli": "^0.1.108"
   },
   "devDependencies": {
     "markdownlint": "^0.25.1",
