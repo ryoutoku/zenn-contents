@@ -1,20 +1,22 @@
 {
-    "filters": {
-        "comments": true
+  "filters": {
+    "comments": true
+  },
+  "rules": {
+    "preset-ja-technical-writing": {
+      "max-kanji-continuous-len": {
+        "max": 7
+      },
+      "no-exclamation-question-mark": false,
+      "sentence-length": false
     },
-    "rules": {
-        "preset-ja-technical-writing": {
-            "max-kanji-continuous-len": {
-                "max": 7
-            }
-        },
-        "preset-ja-spacing": {
-            "ja-space-between-half-and-full-width": {
-                "space": "always"
-            }
-        },
-        "spellcheck-tech-word": true,
-        "textlint-rule-preset-ja-technical-writing": true,
-        "textlint-rule-spellcheck-tech-word": true
-    }
+    "preset-ja-spacing": {
+      "ja-space-between-half-and-full-width": {
+        "space": "always"
+      }
+    },
+    "spellcheck-tech-word": true,
+    "textlint-rule-preset-ja-technical-writing": true,
+    "textlint-rule-spellcheck-tech-word": true
+  }
 }
